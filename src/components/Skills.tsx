@@ -1,5 +1,5 @@
 import React from 'react'
-import RecoilImage from '../../public/image/stack/RecoilImage.png'
+import RecoilImage from '../../public/image/stack/RecoilImage.webp'
 import ArgoCD from '../../public/image/stack/1_Argo_CD.webp'
 import Image from 'next/image'
 

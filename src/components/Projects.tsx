@@ -27,7 +27,7 @@ export default function Projects() {
                     projects.map( (project : Project) => (
 
                         <div key={project.id} className="bg-white/20 p-3 rounded-md flex flex-col gap-3 ">
-                            <Image src={project.image_link} alt={project.title} width={400} height={200} className="rounded-xl"/>
+                            <img src={project.image_link} alt={project.title} width={400} height={200} className="rounded-xl"/>
                             <div className="flex flex-col gap-1">
                                 <h3 className="text-lg font-bold">{project.title}</h3>
                                 <h5 className="text-base font-semibold text-white/80">{project.tech_stack}</h5>
