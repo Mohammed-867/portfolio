@@ -49,7 +49,7 @@ export default function About(){
                             I&apos;m MOHAMMED ALI NABIL, a 22-year-old aspiring DevOps Engineer with a strong foundation in Docker, Kubernetes, and modern CI/CD pipelines. As a fresher, I’ve already built and deployed containerized apps, automated workflows, and worked with cloud environments. My current focus is mastering cloud-native DevOps—leveraging tools like Jenkins, Argo CD, GitHub Actions, and Terraform to streamline and scale infrastructure. I'm passionate about automation, reliability, and contributing to real-world solutions.
                             <br />           
                             <br />
-                            I’m actively looking for opportunities to grow in the industry and contribute to meaningful projects. I'm enthusiastic about learning from experienced teams, contributing to open-source DevOps tools, and building production-ready automation systems.
+                            I&apos;m actively looking for opportunities to grow in the industry and contribute to meaningful projects. I&apos;m enthusiastic about learning from experienced teams, contributing to open-source DevOps tools, and building production-ready automation systems.
                             </p>
                         </div>
 
