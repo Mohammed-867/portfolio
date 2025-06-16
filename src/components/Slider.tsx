@@ -5,7 +5,7 @@ const LOGOS = [
   // '/image/stack/Git-logo.webp',
   // '/image/stack/JavaScript-logo.webp',
   '/image/stack/docker.png','/image/stack/Github.webp','/image/stack/grafana_logo.png','/image/stack/kubernetes-logo.png',
-  '/image/stack/Prometheus-logo.webp','/image/stack/Terraform-logo.png','/image/stack/Slack-logo.webp',
+  '/image/stack/Prometheus-logo.webp','/image/stack/Slack-logo.webp', '/image/stack/Terraform-logo.png',
   '/image/stack/linux-logo.png','/image/stack/jenkins.png','/image/stack/vscode-logo.webp'
 ];
 
