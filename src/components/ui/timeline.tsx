@@ -20,10 +20,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   useEffect(() => {
     if (ref.current) {
-      const rect = ref.current.getBoundingClientRect();
-      setHeight(rect.height);
+      {/*const rect = ref.current.getBoundingClientRect();*/}
+      setHeight(ref.current.scrollHeight);
     }
-  }, [ref]);
+  }, [data]);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,

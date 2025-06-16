@@ -1,5 +1,6 @@
 import React from 'react'
-import RecoilImage from '../../public/image/stack/recoil-logo.webp'
+import RecoilImage from '../../public/image/stack/RecoilImage.png'
+import ArgoCD from '../../public/image/stack/1_Argo_CD.webp'
 import Image from 'next/image'
 
 
@@ -13,72 +14,71 @@ export default function Skills() {
 
                 <section className='grid grid-cols-2 sm:grid-cols-10 grid-rows-7 gap-3'>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white'>
-                        <img src="https://skillicons.dev/icons?i=nextjs" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>NextJs</span> 
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white hover:border-whiteS'>
+                        <img src="https://skillicons.dev/icons?i=linux" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Linux</span> 
                     </div>
                     
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-4 items-center justify-center hover:cursor-pointer hover:bg-[#61DAFB] hover:border-[#61DAFB]'>
-                        <img src="https://skillicons.dev/icons?i=react" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>React</span>
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-4 items-center justify-center hover:cursor-pointer hover:bg-[#333333] hover:border-whiteS hover:text-white'>
+                        <img src="https://skillicons.dev/icons?i=jenkins" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Jenkins</span>
                     </div>
 
                     <div className='p-2 col-span-2 sm:col-span-2 sm:row-span-3  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-sky-600 hover:text-white hover:border-sky-600'>
-                        <img src="https://skillicons.dev/icons?i=typescript" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>TypeScript</span>     
+                        <img src="https://skillicons.dev/icons?i=kubernetes" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Kubernetes</span>     
                     </div>
                     
-                    <div className='p-2 col-span-2 sm:col-span-4 sm:row-span-3 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-yellow-400 hover:border-yellow-400'>
-                        <img src="https://skillicons.dev/icons?i=javascript" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>JavaScript</span>      
+                    <div className='p-2 col-span-2 sm:col-span-4 sm:row-span-3 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white'>
+                        <img src="https://skillicons.dev/icons?i=aws" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>AWS</span>      
                     </div>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white '>
-                        <Image src={RecoilImage} width={400} height={100} alt='skills-recoil' className=' w-24'  /> 
-                        {/* <span className='text-xl'>Recoil</span>       */}
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-violet-900 hover:text-white hover:border-violet-900'>
+                         <img src="https://skillicons.dev/icons?i=terraform" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Terraform</span>  
                     </div>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-violet-500 hover:text-white '>
-                        <img src="https://skillicons.dev/icons?i=redux" alt='skills-redux' className=' w-10'  /> 
-                        <span className='text-xl'>RTK + RTKQ</span>      
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-red-700 hover:text-white hover:border-red-700'>
+                        <img src="https://skillicons.dev/icons?i=ansible" alt='skills-redux' className=' w-10'  /> 
+                        <span className='text-xl'>Ansible</span>      
 
                     </div>
 
                     <div className='p-2 sm:col-span-4 sm:row-span-1  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-sky-600 hover:text-white hover:border-sky-600'>
-                        <img src="https://skillicons.dev/icons?i=tailwindcss" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>Tailwindcss</span>     
+                        <img src="https://skillicons.dev/icons?i=docker" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Docker</span>     
                     </div>
 
-                    <div className='p-2 sm:col-span-3 sm:row-span-1  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white '>
-                        <img src="https://skillicons.dev/icons?i=express" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>ExpressJs</span>    
+                    <div className='p-2 sm:col-span-3 sm:row-span-1  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-yellow-500 hover:text-white hover:border-yellow-500'>
+                        <img src="https://skillicons.dev/icons?i=py" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Python</span>    
                     </div>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-green-600 hover:text-white hover:border-green-600'>
-                        <img src="https://skillicons.dev/icons?i=mongodb" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>MongoDB</span>    
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-red-600 hover:text-white hover:border-red-600'>
+                        <img src="https://skillicons.dev/icons?i=prometheus" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Prometheus</span>    
                     </div>
 
-                    
 
                     <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-sky-700 hover:text-white hover:border-sky-700'>
-                        <img src="https://skillicons.dev/icons?i=postgres" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>Postgres</span>   
+                        <img src="https://skillicons.dev/icons?i=grafana" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Grafana</span>   
                     </div>
 
-                    <div className='p-2 sm:col-span-3 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-violet-400 hover:text-white hover:border-violet-400'>
-                        <img src="https://skillicons.dev/icons?i=prisma" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>Prisma</span>     
+                    <div className='p-2 sm:col-span-3 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-green-600 hover:text-white hover:border-green-600'> 
+                          <Image src={RecoilImage} width={400} height={100} alt='skills-recoil' className=' w-24'  /> 
+                        <span className='text-xl'></span>     
                     </div>
 
                     <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white'>
-                        <img src="https://skillicons.dev/icons?i=aws" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>AWS</span>        
+                        <img src="https://skillicons.dev/icons?i=bash" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>Bash</span>        
                     </div>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-blue-500 hover:text-white hover:border-blue-500'>
-                        <img src="https://skillicons.dev/icons?i=docker" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>Docker</span>     
+                   <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-blue-400 hover:text-white hover:border-blue-400'>
+                         <Image src={ArgoCD} width={400} height={100} alt='skills-recoil' className=' w-24'  /> 
+                        <span className='text-xl'></span>      
                     </div>
 
                     <div className='p-2 sm:col-span-2 sm:row-span-1  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-orange-600 hover:text-white hover:border-orange-600'>
@@ -86,14 +86,14 @@ export default function Skills() {
                         <span className='text-xl'>Git</span>        
                     </div>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-green-600 hover:text-white hover:border-green-600'>
-                        <img src="https://skillicons.dev/icons?i=nginx" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>nginx</span>      
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white '>
+                        <img src="https://skillicons.dev/icons?i=github" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>GitHub</span>      
                     </div>
 
                     <div className='p-2 col-span-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white '>
-                        <img src="https://skillicons.dev/icons?i=linux" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>Linux</span>      
+                        <img src="https://skillicons.dev/icons?i=githubactions" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>GitHubActions</span>      
                     </div>
 
                 </section>

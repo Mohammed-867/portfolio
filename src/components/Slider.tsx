@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const LOGOS = [
-  '/image/stack/react-logo.webp','/image/stack/express-logo.webp',
+  '/image/stack/aws-logo.png','/image/stack/ansible-logo.png',
   // '/image/stack/Git-logo.webp',
   // '/image/stack/JavaScript-logo.webp',
-  '/image/stack/jwt-logo.webp','/image/stack/mongodb-logo.webp','/image/stack/nextjs-logo.webp','/image/stack/postman-logo.webp',
-  '/image/stack/prisma-logo.webp','/image/stack/recoil-logo.webp','/image/stack/Slack-logo.webp',
-  '/image/stack/tailwindcss-logo.webp','/image/stack/ts-lettermark-blue.webp','/image/stack/vite-logo.webp','/image/stack/vscode-logo.webp'
+  '/image/stack/docker.png','/image/stack/Github.webp','/image/stack/grafana_logo.png','/image/stack/kubernetes-logo.png',
+  '/image/stack/Prometheus-logo.webp','/image/stack/terraform-logo.png','/image/stack/Slack-logo.webp',
+  '/image/stack/linux-logo.png','/image/stack/jenkins.png','/image/stack/vscode-logo.webp'
 ];
 
 const Slider = () => {

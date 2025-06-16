@@ -9,10 +9,10 @@ export default function About(){
                 <div className='flex flex-col lg:flex-row justify-center gap-5 '>
 
                     <section className=' grid grid-col sm:w-1/2 gap-3 border-2 border-white/10 p-3 bg-white/10 rounded-lg '>
-                        <Image src="/image/profile-crop.jpg" className='rounded-lg' alt="Stains" width={250} height={100} />   
+                        <Image src="/image/profile.jpeg" className='rounded-lg' alt="Stains" width={250} height={100} />   
                         <div className='flex flex-col gap-2'>
                             <h3 className='font-bold text-lg'>Hey again 👋</h3>
-                            <p className='text-sm sm:text-base '>I&apos;m a Full Stack Engineer @stratforge. My expertise lies in developing applications using Next.js, MERN stack, Redux Toolkit, Redux Toolkit Query for state management. I also utilize PostgreSQL with Prisma for database management and containerize applications using docker. I handle projects end-to-end, from development to deployment, ensuring scalable and efficient solutions.</p>
+                            <p className='text-sm sm:text-base '>I&apos;m Nabil, a DevOps Engineer focused on infrastructure automation, CI/CD, and cloud operations. I make sure code gets from laptop to production reliably and securely. My focus is on scalability, automation, and security in cloud-native environments</p>
                         </div>
                         <div className='flex gap-3'>
                         <p className='flex gap-2'>
@@ -23,7 +23,7 @@ export default function About(){
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                                 </svg>
 
-                                Chennai, India
+                                Bengaluru, India
                             </span>
                         </p>
 
@@ -35,7 +35,7 @@ export default function About(){
                             </svg>
 
 
-                                stratforge
+                                
                             </span>
                         </p>
 
@@ -46,20 +46,20 @@ export default function About(){
                         <div className='flex flex-col gap-2 border-2 border-white/10 p-3 rounded-lg bg-white/10 '>
                             <h3 className='font-bold text-lg'>A little bit more about me</h3>
                             <p className='text-sm sm:text-base  leading-6'>
-                            I&apos;m STAINS K S MAULT, known as stains_leto around the web. I&apos;m a 22-year-old Full Stack Engineer based in India, with over of 5 years into programming. Since 2020, I&apos;ve been freelancing, taking on various projects that have honed my skills in both front-end and back-end development. My passion for technology extends beyond work; I&apos;m actively looking to contribute on open-source projects with the global developer community to create impactful solutions.
+                            I&apos;m MOHAMMED ALI NABIL, a 22-year-old aspiring DevOps Engineer with a strong foundation in Docker, Kubernetes, and modern CI/CD pipelines. As a fresher, I’ve already built and deployed containerized apps, automated workflows, and worked with cloud environments. My current focus is mastering cloud-native DevOps—leveraging tools like Jenkins, Argo CD, GitHub Actions, and Terraform to streamline and scale infrastructure. I'm passionate about automation, reliability, and contributing to real-world solutions.
+                            <br />           
                             <br />
-                            <br />
-                            I got new plans to get started with Rust programming, Fintech and create new ventures in the timeline of my career. Getting started with Rust can push me to get started with low level programming and start contributing to web3 projects.
+                            I’m actively looking for opportunities to grow in the industry and contribute to meaningful projects. I'm enthusiastic about learning from experienced teams, contributing to open-source DevOps tools, and building production-ready automation systems.
                             </p>
                         </div>
 
                         <div className='flex flex-col gap-3 border-2 border-white/10 p-3 rounded-lg bg-white/10 '>
                             <h3 className='font-bold text-lg'>Come and say hi!</h3>
                             <div className='flex gap-3'>   
-                                <a href='https://x.com/LetoStains' target='_blank'> <img src="https://skillicons.dev/icons?i=twitter" alt="x-social" className='w-10'  /> </a>
-                                <a href='https://github.com/stainsleto' target='_blank'> <img src="https://skillicons.dev/icons?i=github" alt="github-social" className='w-10'  /> </a>
-                                <a href='mailto:stainsmault@gmail.com' target='_blank'> <img src="https://skillicons.dev/icons?i=gmail" alt="mailid" className='w-10'  /> </a>
-                                <a href='https://www.linkedin.com/in/stains-leto/' target='_blank'> <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin-social" className='w-10'  /> </a>
+                              <a href='https://x.com/Mohd_Ali_Nabil' target='_blank'> <img src="https://skillicons.dev/icons?i=twitter" alt="x-social" className='w-10'  /> </a> 
+                                <a href='https://github.com/Mohammed-867' target='_blank'> <img src="https://skillicons.dev/icons?i=github" alt="github-social" className='w-10'  /> </a>
+                                <a href='mailto:mohdalinabil87@gmail.com' target='_blank'> <img src="https://skillicons.dev/icons?i=gmail" alt="mailid" className='w-10'  /> </a>
+                                <a href='https://www.linkedin.com/in/mohammed-ali-nabil/' target='_blank'> <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin-social" className='w-10'  /> </a>
                             </div>
 
                         </div>

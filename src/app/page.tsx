@@ -20,29 +20,23 @@ export default function Home() {
 
       title : "Resume",
       icon: <IoDocumentText className="h-full w-full text-neutral-700" />,
-      href: 'https://docs.google.com/document/d/1CFhLnAvzYMlROg0xImJMrtHeCDjByRTd/edit?usp=sharing&ouid=104260973669657686969&rtpof=true&sd=true'
+      href: 'https://drive.google.com/file/d/1oByX8pswBBpz7ZX3BiUFLYsClbNZCVXy/view?usp=sharing'
     },
     {
     title : "Mail",
     icon: <FiMail className="h-full w-full text-neutral-700"  />,
-    href: 'mailto:stainsmault@gmail.com'
+    href: 'mailto:mohdalinabil87@gmail.com'
   },
   {
   title : "github",
   icon: <FaGithub className="h-full w-full text-neutral-700"   />,
-  href: 'https://github.com/stainsleto'
+  href: 'https://github.com/Mohammed-867'
 },
-{
-
-title : "x",
-    icon: <FaXTwitter className="h-full w-full text-neutral-700"  />,
-    href: 'https://x.com/LetoStains'
-  },
 {
 
 title : "Linkedin",
     icon: <FaLinkedin className="h-full w-full text-neutral-700" />,
-    href: 'https://www.linkedin.com/in/stains-mault/'
+    href: 'https://www.linkedin.com/in/mohammed-ali-nabil/'
   },
 ]
 

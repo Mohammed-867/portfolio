@@ -1,14 +1,14 @@
 
 const experience  = [
   {
-    title: 'FullStack Engineer',
+    title: 'DevOps Engineer (Intern)',
     content: <section className="w-4/6 flex flex-col gap-5">
         <div className="flex gap-3">
           <span className="rounded-md border-2 border-white/20 bg-sky-600 px-2 flex p-1 font-bold gap-1">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
             </svg>
-            Stratforge
+            LearnBay
           </span>
 
           <span className="rounded-md border-2 border-white/20 bg-sky-600 px-2 flex p-1 font-bold gap-1">
@@ -17,22 +17,28 @@ const experience  = [
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
             </svg>
 
-            Chennai
+            Bengaluru
           </span> <br />
         </div>
-        <h4 className="font-bold">Full Stack Engineer (Full Time) • Oct 2024 - Present </h4>
+        <h4 className="font-bold">DevOps Engineer (Intern) • July 2024 - May 2025 </h4>
         <ul className="flex flex-col gap-3">
           <li>
-          • Designed and implemented a comprehensive feature to streamline the onboarding process for new users into an organization by enabling bulk user upload functionality. Additionally, spearheaded the transformation of the backend architecture in the current microservices, optimizing it for enhanced efficiency and scalability.
+          • Gained hands-on experience in AWS cloud infrastructure and DevOps practices, focusing on CI/CD automation, infrastructure as code (IaC), and cloud monitoring.
           </li>
           <li>
-          • Utilized ReactJs to implement frontend logic, employed Redux Toolkit for the state management,  Redux Toolkit Query for efficient API integration, Utilized Python and Node.js to architect and implement backend updates, ensuring a cohesive and scalable system.
+          • Assisted in setting up CI/CD pipelines using Jenkins, GitHub Actions, and AWS CodePipeline. Implemented and optimized containerized applications using Docker, ensuring efficient Orchestration and scaling with Kubernetes.
+          </li>
+          <li>
+          • Developed Terraform-based infrastructure automation, reducing manual provisioning time by 40% and enhancing deployment consistency.
+          </li>
+          <li>
+          • Monitored system performance using AWS CloudWatch and Prometheus. Automated deployments on AWS EC2, S3, Lambda, and EKS for scalable applications. 
           </li>
         </ul>
     </section>,
-  },
+}]
     
-    {
+    {/*
       title: 'Frontend Engineer (Intern)',
       content: <section className="w-4/6 flex flex-col gap-5">
           <div className="flex gap-3">
@@ -62,8 +68,8 @@ const experience  = [
             </li>
           </ul>
       </section>,
-    },
-    {
+    */}
+    {/*
       title: 'Freelance Developer',
       content: <section className="w-4/6 flex flex-col gap-5">
           <div className="flex gap-3">
@@ -107,8 +113,8 @@ const experience  = [
           </ul>
 
       </section>,
-    },
-    {
+    */}
+    {/*
       title: 'Frontend Wordpress Developer',
       content: <section className="w-5/6  flex flex-col gap-5">
           <div className="flex gap-3">
@@ -142,17 +148,17 @@ const experience  = [
             </ul>
       </section>,
     },
-  ];
+  ];*/}
 
   const projects = [
     {
       id: 1,
-      title: '⛳️ Open Wise',
-      description: 'A payment application where people can transfer funds, implemented On ramp transactions with seperate servers while adding funds to the wallet. ',
-      image_link: '/image/projects/openwise.png',
-      tech_stack : 'NextJs, Prisma, Postgresql, expressJs',
+      title: 'Microservices E-Commerce project!',
+      description: 'Automated CI/CD Success! Jenkins on AWS EC2 ! Just wrapped up a smooth Jenkins multi-branch pipeline run on an AWS EC2 instance for our Microservices E-Commerce project !',
+      image_link: '/image/projects/1743599150918.jpg',
+      tech_stack : 'Jenkins, AWS EC2, Docker, Kubernetes',
       link: {
-          github: 'https://github.com/stainsleto/openwise',
+          github: 'https://github.com/Mohammed-867/Microservice',
           // live_link: 'https://github.com'
       }
     },
@@ -178,18 +184,8 @@ const experience  = [
         github: 'https://github.com/stainsleto/Real-Estate-Marketplace',
         // live_link: 'https://github.com'
     }
-  },
-  {
-    id: 4,
-    title: 'Mini Paytm',
-    description: 'A robust application allowing users to seamlessly send and receive money, built with ExpressJS for the backend and ReactJS for the frontend. Utilizing transactions in mongoDB for transactions and database, ensuring safe and reliable financial transfer.',
-    image_link: '/image/projects/paytm.png',
-    tech_stack : 'ReactJs, ExpressJs, MongoDB',
-    link: {
-        github: 'https://github.com/stainsleto/Learning-JS-FrameWorks/tree/main/100xdevs/paytm',
-        // live_link: 'https://github.com'
-    }
-  },
+  }
+
 
   ]
 
